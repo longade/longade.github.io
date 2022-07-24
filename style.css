@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(238, 255, 226);
+    background: linear-gradient(90deg, rgba(238, 255, 226, 0.700717787114846) 50%, rgba(176, 254, 237, 0.7035189075630253) 100%);
+    box-shadow: 0px 1px 1px rgba(000, 000, 000, 0.5), inset 1px 2px 0px rgba(255, 255, 255, 0.4);
+}
+
+.item>span {
+    font-weight: bold;
+}
+
+.item>a {
+    align-self: flex-end;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
